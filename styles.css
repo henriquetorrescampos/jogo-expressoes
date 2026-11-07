@@ -112,8 +112,14 @@ a{color:var(--azul-texto)}
 /* ---------- Sobre ---------- */
 .sobre-grade{display:grid;gap:2.5rem}
 .foto-clinica{max-width:26rem;margin-inline:auto}
-.sobre-simbolo{width:64px;height:64px;margin-bottom:1rem}
-.sobre-texto{max-width:46ch;margin-top:1rem;font-size:1.2rem}
+.sobre-texto{max-width:54ch;margin-top:1.25rem;color:var(--suave)}
+.sobre-lista{margin-top:1.75rem;gap:1.1rem}
+.sobre-endereco{margin-top:1.75rem;font-size:1rem;color:var(--suave)}
+.sobre-links{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1.5rem}
+.link-cartao{display:inline-flex;align-items:center;gap:.6rem;min-height:52px;padding:.6rem 1.3rem .5rem;background:var(--branco);color:var(--tinta);font-family:var(--f-titulo);font-weight:800;font-size:1.1rem;line-height:1.1;text-decoration:none;border:2px solid var(--tinta);border-radius:16px;transition:transform .12s ease,background-color .12s ease}
+.link-cartao:hover{background:var(--amarelo-claro)}
+.link-cartao:active{transform:scale(.97)}
+.link-cartao svg{flex:none;width:1.35rem;height:1.35rem}
 
 /* ---------- Prova social ---------- */
 .prints{display:flex;gap:1rem;margin-top:2rem;padding-bottom:.75rem;overflow-x:auto;scroll-snap-type:x mandatory}
@@ -164,7 +170,7 @@ a{color:var(--azul-texto)}
   .rodape-linha{grid-template-columns:1fr auto;align-items:start}
 }
 @media (min-width:56em){
-  .sobre-grade{grid-template-columns:1fr 1fr;align-items:center;gap:4rem}
+  .sobre-grade{grid-template-columns:.85fr 1.15fr;align-items:center;gap:4rem}
   .oferta-cartao{grid-template-columns:1.1fr .9fr;align-items:center;gap:3rem;padding:3rem 2.75rem 2.75rem}
 }
 @media (min-width:60em){
