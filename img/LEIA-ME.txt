@@ -1,0 +1,13 @@
+Salve aqui as imagens da página, com estes nomes:
+
+lapidar-simbolo.svg    Símbolo da Lapidar (já incluído, não apague)
+rostos/                Os 8 rostos das expressões, recortados das suas ilustrações (já incluídos, não apague)
+material.webp          Imagem 1: os 4 rostos com expressões coladas e os cards ao lado (1200 x 900 px)
+clinica-lapidar.webp   Imagem 2: fachada, sala de atendimento infantil ou equipe (1200 x 900 px)
+print-1.jpg            Prints reais de mensagens no WhatsApp, com autorização,
+print-2.jpg            sem número de telefone nem foto de perfil (720 x 1280 px)
+print-3.jpg
+compartilhamento.jpg   Imagem que aparece ao compartilhar o link (1200 x 630 px)
+
+Depois de salvar, troque no index.html cada bloco <div class="ph"> pela tag <img>
+indicada no comentário logo acima dele.
