@@ -137,7 +137,7 @@ a{color:var(--azul-texto)}
 
 /* ---------- Sobre ---------- */
 .sobre-grade{display:grid;gap:2.5rem}
-.ph-clinica{aspect-ratio:4/3}
+.foto-clinica{max-width:26rem;margin-inline:auto}
 .sobre-simbolo{width:64px;height:64px;margin-bottom:1rem}
 .sobre-texto{max-width:46ch;margin-top:1rem;font-size:1.2rem}
 
