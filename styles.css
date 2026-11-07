@@ -140,11 +140,6 @@ a{color:var(--azul-texto)}
 .faq details[open] summary::after{transform:rotate(45deg)}
 .faq details p{max-width:60ch;padding-bottom:1.25rem;color:var(--suave)}
 
-/* ---------- CTA final ---------- */
-.final{background:var(--amarelo)}
-.final h2{max-width:18ch;font-size:clamp(2.2rem,7vw,3.6rem)}
-.final-texto{max-width:42ch;margin-top:1rem;font-size:1.2rem}
-.final .btn{width:100%;margin-top:1.9rem}
 
 /* ---------- Rodapé ---------- */
 .rodape{padding-block:2.25rem 2.5rem;background:var(--tinta);color:#E8E8E4;font-size:1rem}
@@ -163,7 +158,7 @@ a{color:var(--azul-texto)}
   .topo-linha{min-height:76px}
   .topo-cta{display:inline-flex}
   section[id]{scroll-margin-top:5rem}
-  .hero .btn,.final .btn{width:auto}
+  .hero .btn{width:auto}
   .barra{display:none}
   .prints{display:grid;grid-template-columns:repeat(3,1fr);overflow:visible;padding-bottom:0}
   .rodape-linha{grid-template-columns:1fr auto;align-items:start}
