@@ -114,12 +114,11 @@ a{color:var(--azul-texto)}
 .foto-clinica{max-width:26rem;margin-inline:auto}
 .sobre-texto{max-width:54ch;margin-top:1.25rem;color:var(--suave)}
 .sobre-lista{margin-top:1.75rem;gap:1.1rem}
-.sobre-endereco{margin-top:1.75rem;font-size:1rem;color:var(--suave)}
-.sobre-links{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1.5rem}
-.link-cartao{display:inline-flex;align-items:center;gap:.6rem;min-height:52px;padding:.6rem 1.3rem .5rem;background:var(--branco);color:var(--tinta);font-family:var(--f-titulo);font-weight:800;font-size:1.1rem;line-height:1.1;text-decoration:none;border:2px solid var(--tinta);border-radius:16px;transition:transform .12s ease,background-color .12s ease}
-.link-cartao:hover{background:var(--amarelo-claro)}
-.link-cartao:active{transform:scale(.97)}
-.link-cartao svg{flex:none;width:1.35rem;height:1.35rem}
+.sobre-endereco{margin-top:1.5rem;font-size:1rem;color:var(--suave)}
+.clinica-links{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1.25rem}
+.btn-contorno{display:inline-flex;align-items:center;gap:.55rem;min-height:48px;padding:.6rem 1.15rem;background:var(--branco);color:var(--tinta);font-family:var(--f-titulo);font-weight:700;font-size:1.05rem;line-height:1.1;text-decoration:none;border:1.5px solid #D9D6C8;border-radius:12px;transition:border-color .12s ease,color .12s ease}
+.btn-contorno:hover{border-color:var(--azul);color:var(--azul-texto)}
+.btn-contorno svg{flex:none;width:1.15rem;height:1.15rem;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 
 
 /* ---------- Oferta ---------- */
