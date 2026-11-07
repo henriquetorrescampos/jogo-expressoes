@@ -122,7 +122,8 @@ a{color:var(--azul-texto)}
 
 
 /* ---------- Oferta ---------- */
-.oferta-cartao{display:grid;gap:1.75rem;max-width:56rem;margin-top:2rem;padding:2.1rem 1.5rem 1.9rem;background:var(--branco);border:3px solid var(--tinta);border-radius:28px;box-shadow:0 8px 0 var(--tinta);background-image:linear-gradient(90deg,var(--azul) 0 25%,var(--amarelo) 25% 50%,var(--verde) 50% 75%,var(--vermelho) 75% 100%);background-size:100% 10px;background-repeat:no-repeat}
+#oferta h2{margin-inline:auto;text-align:center}
+.oferta-cartao{display:grid;gap:1.75rem;max-width:56rem;margin:2rem auto 0;padding:2.1rem 1.5rem 1.9rem;background:var(--branco);border:3px solid var(--tinta);border-radius:28px;box-shadow:0 8px 0 var(--tinta);background-image:linear-gradient(90deg,var(--azul) 0 25%,var(--amarelo) 25% 50%,var(--verde) 50% 75%,var(--vermelho) 75% 100%);background-size:100% 10px;background-repeat:no-repeat}
 .oferta-produto{grid-column:1/-1;width:100%;max-width:34rem;margin-inline:auto;border:3px solid var(--tinta);border-radius:20px}
 .oferta-cartao h3{font-size:1.9rem}
 .preco{font-family:var(--f-titulo);font-weight:800;font-size:clamp(3rem,13vw,4.2rem);line-height:1}
