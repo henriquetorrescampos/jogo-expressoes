@@ -93,13 +93,6 @@ a{color:var(--azul-texto)}
 .ph-num{font-family:var(--f-titulo);font-weight:800;font-size:1.2rem;color:var(--tinta)}
 .foto{width:100%;border:3px solid var(--tinta);border-radius:24px}
 
-/* ---------- Problema ---------- */
-.falas{display:grid;gap:1rem;max-width:46rem;margin-top:2rem}
-.fala{max-width:34rem;padding:1rem 1.25rem;background:var(--ceu);border-radius:24px 24px 24px 6px}
-.fala:nth-child(even){margin-left:auto;background:var(--sol);border-radius:24px 24px 6px 24px}
-.fala-quem{display:block;margin-bottom:.15rem;font-size:.95rem;font-weight:700;color:var(--azul-texto)}
-.fecho{max-width:24ch;margin-top:2.25rem;font-family:var(--f-titulo);font-weight:800;font-size:clamp(1.5rem,4vw,2rem);line-height:1.15}
-
 /* ---------- Solução ---------- */
 .solucao-grade{display:grid;gap:2.5rem}
 .pontos{display:grid;gap:1.25rem;margin-top:2rem}
@@ -111,29 +104,10 @@ a{color:var(--azul-texto)}
 .ponto:nth-child(3) h3{color:#4E7A1C}
 .ph-material{aspect-ratio:4/3}
 
-/* ---------- O que vem no jogo ---------- */
-.itens{display:grid;gap:1rem;margin-top:2rem}
-.item{display:grid;grid-template-columns:4.5rem 1fr;align-items:center;gap:1rem;padding:1rem 1.25rem;border:3px solid var(--tinta);border-radius:22px}
-.item-num{display:grid;place-items:center;width:4.5rem;height:4.5rem;font-family:var(--f-titulo);font-weight:800;font-size:2.4rem;line-height:1;color:var(--tinta);background:var(--amarelo);border-radius:50%}
-.item:nth-child(2) .item-num{background:var(--verde)}
-.item-num-icone{background:var(--ceu)}
-.item:nth-child(3) .item-num{background:var(--ceu)}
-.item-num-icone svg{width:2.4rem;height:2.4rem}
-.item h3{font-size:1.45rem}
-.item p{margin-top:.1rem;font-size:1rem;color:var(--suave)}
-.emocoes-titulo{margin-top:3rem;font-size:1.6rem}
-.emocoes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem;margin-top:1.25rem}
-.emocao{display:flex;flex-direction:column;align-items:center;gap:.4rem;padding:.9rem .5rem .7rem;font-family:var(--f-titulo);font-weight:700;font-size:1.15rem;line-height:1.1;text-align:center;background:var(--sol);border-radius:18px}
-.emocao img{flex:none;width:5.5rem;aspect-ratio:1;object-fit:cover;border:3px solid var(--tinta);border-radius:50%}
-
-/* ---------- Para quem é ---------- */
-.quem-grade{display:grid;gap:1.25rem;margin-top:2rem}
-.quem{padding:1.6rem 1.5rem;background:var(--branco);border:3px solid var(--tinta);border-radius:24px}
-.quem h3{font-size:1.6rem}
+/* ---------- Listas ---------- */
 .lista{display:grid;gap:.85rem;margin-top:1rem}
 .lista li{position:relative;padding-left:2.25rem}
 .lista li::before{content:"";position:absolute;left:0;top:.15em;width:1.5rem;height:1.5rem;border-radius:50%;background:var(--verde) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23363634' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center/62% no-repeat}
-.lista-nao li::before{background-color:var(--vermelho);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round'%3E%3Cpath d='M6 6l12 12M18 6L6 18'/%3E%3C/svg%3E")}
 
 /* ---------- Sobre ---------- */
 .sobre-grade{display:grid;gap:2.5rem}
@@ -184,17 +158,6 @@ a{color:var(--azul-texto)}
 .barra .btn{width:100%;min-height:52px;box-shadow:0 4px 0 var(--tinta)}
 
 /* ---------- Telas maiores ---------- */
-@media (min-width:36em){
-  .emocoes{grid-template-columns:repeat(4,minmax(0,1fr))}
-  .emocao{padding:1rem .5rem .8rem}
-  .emocao img{width:6.5rem}
-}
-@media (min-width:44em){
-  .quem-grade{grid-template-columns:1fr 1fr}
-  .quem{padding:2rem}
-  .itens{grid-template-columns:repeat(3,1fr)}
-  .item{grid-template-columns:1fr;align-items:start;padding:1.4rem}
-}
 @media (min-width:48em){
   .topo{position:sticky;top:0;z-index:40}
   .topo-linha{min-height:76px}
